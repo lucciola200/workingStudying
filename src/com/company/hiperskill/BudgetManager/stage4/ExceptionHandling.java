@@ -1,4 +1,4 @@
-package com.company.hiperskill.BudgetManager;
+package com.company.hiperskill.BudgetManager.stage4;
 
 import java.util.Scanner;
 
