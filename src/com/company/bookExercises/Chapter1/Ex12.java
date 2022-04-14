@@ -8,6 +8,7 @@ public class Ex12 {
         String str = sc.nextLine();
         System.out.println(removeDuplicated(str));
 
+
     }
 
     public static String removeDuplicated(String str) {
