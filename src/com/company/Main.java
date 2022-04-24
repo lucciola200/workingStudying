@@ -7,3 +7,21 @@ public class Main {
         System.out.println("Hello");
     }
 }
+class Action {
+    public void doAction() {
+        System.out.println("Doing an action");
+    }
+}
+
+
+class Human {
+
+    public void doYoga() {
+        Action action = new Action() {
+            public void doAction() {
+                System.out.println("Doing yoga.");
+            }
+        };
+        action.doAction();
+    }
+}
